@@ -6,3 +6,7 @@ contains duplicate:
 
 best time to buy and sell stock:
 - idea: track two metrics--minPrice and maxProfit. (like twoPointers)
+
+product of array except self:
+- idea: reuse computations. prod = l x r
+- trick: minimize space further by rolling multiplications in a single array, (one output array, instead of l and r arrays).
